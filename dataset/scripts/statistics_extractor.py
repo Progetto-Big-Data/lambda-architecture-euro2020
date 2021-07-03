@@ -1,11 +1,12 @@
 import http.client
 import time
+import properties
 
 conn = http.client.HTTPSConnection("v3.football.api-sports.io")
 
 headers = {
     'x-rapidapi-host': "v3.football.api-sports.io",
-    'x-rapidapi-key': ""
+    'x-rapidapi-key': f"{properties.api_key}"
 }
 
 euro2020_id = 4
