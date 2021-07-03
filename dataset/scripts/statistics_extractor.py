@@ -1,5 +1,6 @@
 import http.client
 import time
+import argparse
 import properties
 
 conn = http.client.HTTPSConnection("v3.football.api-sports.io")
@@ -14,7 +15,14 @@ fixture = 718186
 
 polling_time = 60 #seconds
 
-minute = 1
+parser = argparse.ArgumentParser()
+parser.add_argument("--minute", help='insert minute from which you want to start', type=int)
+args = parser.parse_args()
+
+minute = args.minute
+
+if not minute:
+    minute = 1
 
 
 while True:
@@ -24,7 +32,7 @@ while True:
     res = conn.getresponse()
     data = res.read()
 
-    f = open(f"match_minute_{minute}.json", "w")
+    f = open(f"match_minute_{minute}.json", "a")
     f.write(data.decode("utf-8"))
     f.close()
 
