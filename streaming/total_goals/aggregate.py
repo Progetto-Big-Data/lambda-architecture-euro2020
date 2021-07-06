@@ -5,7 +5,7 @@ from pyspark.streaming import *
 
 spark = SparkSession \
     .builder \
-    .appName("Total goals streaming") \
+    .appName("Aggregate goals streaming") \
     .getOrCreate()
 
 spark.sparkContext.setLogLevel("WARN")
@@ -44,7 +44,6 @@ home_query = total_home_goals \
     .format("kafka") \
     .option("kafka.bootstrap.servers", "localhost:9092") \
     .option("topic", "home_goals") \
-    .trigger(processingTime="1 minute") \
     .start()
 
 away_query = total_away_goals \
