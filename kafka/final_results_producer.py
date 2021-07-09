@@ -9,7 +9,7 @@ producer = KafkaProducer(
     value_serializer=lambda x: dumps(x).encode('utf-8')
 )
 
-fixture_path = 'recent_fixtures.csv'
+fixture_path = 'dataset/historical_euro_fixtures/recent_euro_fixtures.csv'
 kafka_topic = 'final_fixtures'
 
 with open(fixture_path, 'r') as csvfile:
@@ -18,4 +18,4 @@ with open(fixture_path, 'r') as csvfile:
         game = ",".join(game)
         producer.send(kafka_topic, value=game)
         print(f'sent data {game}')
-        sleep(5)
+        sleep(1)
