@@ -1,0 +1,3445 @@
+[
+    {
+        "id": 132759,
+        "date": "2019-03-21T15:00:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Kazakhstan",
+        "away_team": "Scotland",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 132760,
+        "date": "2019-03-21T17:00:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Cyprus",
+        "away_team": "San Marino",
+        "score": {
+            "home": 5,
+            "away": 0
+        }
+    },
+    {
+        "id": 132761,
+        "date": "2019-03-21T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Northern Ireland",
+        "away_team": "Estonia",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132762,
+        "date": "2019-03-21T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Netherlands",
+        "away_team": "Belarus",
+        "score": {
+            "home": 4,
+            "away": 0
+        }
+    },
+    {
+        "id": 132763,
+        "date": "2019-03-21T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Slovakia",
+        "away_team": "Hungary",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132764,
+        "date": "2019-03-21T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Croatia",
+        "away_team": "Azerbaijan",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132765,
+        "date": "2019-03-21T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Israel",
+        "away_team": "Slovenia",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132766,
+        "date": "2019-03-21T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "FYR Macedonia",
+        "away_team": "Latvia",
+        "score": {
+            "home": 3,
+            "away": 1
+        }
+    },
+    {
+        "id": 132767,
+        "date": "2019-03-21T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Austria",
+        "away_team": "Poland",
+        "score": {
+            "home": 0,
+            "away": 1
+        }
+    },
+    {
+        "id": 132768,
+        "date": "2019-03-21T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Belgium",
+        "away_team": "Russia",
+        "score": {
+            "home": 3,
+            "away": 1
+        }
+    },
+    {
+        "id": 132769,
+        "date": "2019-03-22T17:00:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Bulgaria",
+        "away_team": "Montenegro",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132770,
+        "date": "2019-03-22T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "England",
+        "away_team": "Czech Republic",
+        "score": {
+            "home": 5,
+            "away": 0
+        }
+    },
+    {
+        "id": 132771,
+        "date": "2019-03-22T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Portugal",
+        "away_team": "Ukraine",
+        "score": {
+            "home": 0,
+            "away": 0
+        }
+    },
+    {
+        "id": 132772,
+        "date": "2019-03-22T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Luxembourg",
+        "away_team": "Lithuania",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132773,
+        "date": "2019-03-22T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Moldova",
+        "away_team": "France",
+        "score": {
+            "home": 1,
+            "away": 4
+        }
+    },
+    {
+        "id": 132774,
+        "date": "2019-03-22T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "andorra",
+        "away_team": "Iceland",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132775,
+        "date": "2019-03-22T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Albania",
+        "away_team": "Turkey",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132776,
+        "date": "2019-03-23T14:00:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Georgia",
+        "away_team": "Switzerland",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132777,
+        "date": "2019-03-23T17:00:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Gibraltar",
+        "away_team": "Rep. Of Ireland",
+        "score": {
+            "home": 0,
+            "away": 1
+        }
+    },
+    {
+        "id": 132778,
+        "date": "2019-03-23T17:00:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Sweden",
+        "away_team": "Romania",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132779,
+        "date": "2019-03-23T17:00:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Malta",
+        "away_team": "Faroe Islands",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132780,
+        "date": "2019-03-23T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Spain",
+        "away_team": "Norway",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132781,
+        "date": "2019-03-23T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Liechtenstein",
+        "away_team": "Greece",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132782,
+        "date": "2019-03-23T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Italy",
+        "away_team": "Finland",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132783,
+        "date": "2019-03-23T19:45:00+00:00",
+        "round": "Qualifying Round - 1",
+        "home_team": "Bosnia & Herzegovina",
+        "away_team": "Armenia",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132784,
+        "date": "2019-03-24T14:00:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Wales",
+        "away_team": "Slovakia",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132785,
+        "date": "2019-03-24T14:00:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Kazakhstan",
+        "away_team": "Russia",
+        "score": {
+            "home": 0,
+            "away": 4
+        }
+    },
+    {
+        "id": 132786,
+        "date": "2019-03-24T17:00:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Hungary",
+        "away_team": "Croatia",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132787,
+        "date": "2019-03-24T17:00:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Israel",
+        "away_team": "Austria",
+        "score": {
+            "home": 4,
+            "away": 2
+        }
+    },
+    {
+        "id": 132788,
+        "date": "2019-03-24T17:00:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "San Marino",
+        "away_team": "Scotland",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132789,
+        "date": "2019-03-24T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Northern Ireland",
+        "away_team": "Belarus",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132790,
+        "date": "2019-03-24T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Netherlands",
+        "away_team": "Germany",
+        "score": {
+            "home": 2,
+            "away": 3
+        }
+    },
+    {
+        "id": 132791,
+        "date": "2019-03-24T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Slovenia",
+        "away_team": "FYR Macedonia",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132792,
+        "date": "2019-03-24T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Poland",
+        "away_team": "Latvia",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132793,
+        "date": "2019-03-24T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Cyprus",
+        "away_team": "Belgium",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132794,
+        "date": "2019-03-25T17:00:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Turkey",
+        "away_team": "Moldova",
+        "score": {
+            "home": 4,
+            "away": 0
+        }
+    },
+    {
+        "id": 132795,
+        "date": "2019-03-25T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Montenegro",
+        "away_team": "England",
+        "score": {
+            "home": 1,
+            "away": 5
+        }
+    },
+    {
+        "id": 132796,
+        "date": "2019-03-25T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Kosovo",
+        "away_team": "Bulgaria",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132797,
+        "date": "2019-03-25T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Portugal",
+        "away_team": "Serbia",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132798,
+        "date": "2019-03-25T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Luxembourg",
+        "away_team": "Ukraine",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 132799,
+        "date": "2019-03-25T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "France",
+        "away_team": "Iceland",
+        "score": {
+            "home": 4,
+            "away": 0
+        }
+    },
+    {
+        "id": 132800,
+        "date": "2019-03-25T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "andorra",
+        "away_team": "Albania",
+        "score": {
+            "home": 0,
+            "away": 3
+        }
+    },
+    {
+        "id": 132801,
+        "date": "2019-03-26T17:00:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Armenia",
+        "away_team": "Finland",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132802,
+        "date": "2019-03-26T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Switzerland",
+        "away_team": "Denmark",
+        "score": {
+            "home": 3,
+            "away": 3
+        }
+    },
+    {
+        "id": 132803,
+        "date": "2019-03-26T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Rep. Of Ireland",
+        "away_team": "Georgia",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132804,
+        "date": "2019-03-26T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Romania",
+        "away_team": "Faroe Islands",
+        "score": {
+            "home": 4,
+            "away": 1
+        }
+    },
+    {
+        "id": 132805,
+        "date": "2019-03-26T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Norway",
+        "away_team": "Sweden",
+        "score": {
+            "home": 3,
+            "away": 3
+        }
+    },
+    {
+        "id": 132806,
+        "date": "2019-03-26T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Malta",
+        "away_team": "Spain",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132807,
+        "date": "2019-03-26T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Italy",
+        "away_team": "Liechtenstein",
+        "score": {
+            "home": 6,
+            "away": 0
+        }
+    },
+    {
+        "id": 132808,
+        "date": "2019-03-26T19:45:00+00:00",
+        "round": "Qualifying Round - 2",
+        "home_team": "Bosnia & Herzegovina",
+        "away_team": "Greece",
+        "score": {
+            "home": 2,
+            "away": 2
+        }
+    },
+    {
+        "id": 132809,
+        "date": "2019-06-07T16:00:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Georgia",
+        "away_team": "Gibraltar",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 132810,
+        "date": "2019-06-07T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Montenegro",
+        "away_team": "Kosovo",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132811,
+        "date": "2019-06-07T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Czech Republic",
+        "away_team": "Bulgaria",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132812,
+        "date": "2019-06-07T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Ukraine",
+        "away_team": "Serbia",
+        "score": {
+            "home": 5,
+            "away": 0
+        }
+    },
+    {
+        "id": 132813,
+        "date": "2019-06-07T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Lithuania",
+        "away_team": "Luxembourg",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132814,
+        "date": "2019-06-07T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Denmark",
+        "away_team": "Rep. Of Ireland",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132815,
+        "date": "2019-06-07T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Sweden",
+        "away_team": "Malta",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 132816,
+        "date": "2019-06-07T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Norway",
+        "away_team": "Romania",
+        "score": {
+            "home": 2,
+            "away": 2
+        }
+    },
+    {
+        "id": 132817,
+        "date": "2019-06-07T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Faroe Islands",
+        "away_team": "Spain",
+        "score": {
+            "home": 1,
+            "away": 4
+        }
+    },
+    {
+        "id": 132818,
+        "date": "2019-06-07T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Latvia",
+        "away_team": "Israel",
+        "score": {
+            "home": 0,
+            "away": 3
+        }
+    },
+    {
+        "id": 132819,
+        "date": "2019-06-07T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "FYR Macedonia",
+        "away_team": "Poland",
+        "score": {
+            "home": 0,
+            "away": 1
+        }
+    },
+    {
+        "id": 132820,
+        "date": "2019-06-07T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Austria",
+        "away_team": "Slovenia",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132821,
+        "date": "2019-06-08T13:00:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Croatia",
+        "away_team": "Wales",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132822,
+        "date": "2019-06-08T13:00:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Iceland",
+        "away_team": "Albania",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132823,
+        "date": "2019-06-08T16:00:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Estonia",
+        "away_team": "Northern Ireland",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 132824,
+        "date": "2019-06-08T16:00:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Azerbaijan",
+        "away_team": "Hungary",
+        "score": {
+            "home": 1,
+            "away": 3
+        }
+    },
+    {
+        "id": 132825,
+        "date": "2019-06-08T16:00:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Moldova",
+        "away_team": "andorra",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132826,
+        "date": "2019-06-08T16:00:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Russia",
+        "away_team": "San Marino",
+        "score": {
+            "home": 9,
+            "away": 0
+        }
+    },
+    {
+        "id": 132827,
+        "date": "2019-06-08T16:00:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Finland",
+        "away_team": "Bosnia & Herzegovina",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132828,
+        "date": "2019-06-08T16:00:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Armenia",
+        "away_team": "Liechtenstein",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 132829,
+        "date": "2019-06-08T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Belarus",
+        "away_team": "Germany",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132830,
+        "date": "2019-06-08T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Turkey",
+        "away_team": "France",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132831,
+        "date": "2019-06-08T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Scotland",
+        "away_team": "Cyprus",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132832,
+        "date": "2019-06-08T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Belgium",
+        "away_team": "Kazakhstan",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 132833,
+        "date": "2019-06-08T18:45:00+00:00",
+        "round": "Qualifying Round - 3",
+        "home_team": "Greece",
+        "away_team": "Italy",
+        "score": {
+            "home": 0,
+            "away": 3
+        }
+    },
+    {
+        "id": 132834,
+        "date": "2019-06-10T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Czech Republic",
+        "away_team": "Montenegro",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 132835,
+        "date": "2019-06-10T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Bulgaria",
+        "away_team": "Kosovo",
+        "score": {
+            "home": 2,
+            "away": 3
+        }
+    },
+    {
+        "id": 132836,
+        "date": "2019-06-10T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Ukraine",
+        "away_team": "Luxembourg",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132837,
+        "date": "2019-06-10T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Serbia",
+        "away_team": "Lithuania",
+        "score": {
+            "home": 4,
+            "away": 1
+        }
+    },
+    {
+        "id": 132838,
+        "date": "2019-06-10T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Rep. Of Ireland",
+        "away_team": "Gibraltar",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132839,
+        "date": "2019-06-10T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Denmark",
+        "away_team": "Georgia",
+        "score": {
+            "home": 5,
+            "away": 1
+        }
+    },
+    {
+        "id": 132840,
+        "date": "2019-06-10T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Spain",
+        "away_team": "Sweden",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 132841,
+        "date": "2019-06-10T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Malta",
+        "away_team": "Romania",
+        "score": {
+            "home": 0,
+            "away": 4
+        }
+    },
+    {
+        "id": 132842,
+        "date": "2019-06-10T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Faroe Islands",
+        "away_team": "Norway",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132843,
+        "date": "2019-06-10T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Poland",
+        "away_team": "Israel",
+        "score": {
+            "home": 4,
+            "away": 0
+        }
+    },
+    {
+        "id": 132844,
+        "date": "2019-06-10T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Latvia",
+        "away_team": "Slovenia",
+        "score": {
+            "home": 0,
+            "away": 5
+        }
+    },
+    {
+        "id": 132845,
+        "date": "2019-06-10T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "FYR Macedonia",
+        "away_team": "Austria",
+        "score": {
+            "home": 1,
+            "away": 4
+        }
+    },
+    {
+        "id": 132846,
+        "date": "2019-06-11T14:00:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Kazakhstan",
+        "away_team": "San Marino",
+        "score": {
+            "home": 4,
+            "away": 0
+        }
+    },
+    {
+        "id": 132847,
+        "date": "2019-06-11T16:00:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Azerbaijan",
+        "away_team": "Slovakia",
+        "score": {
+            "home": 1,
+            "away": 5
+        }
+    },
+    {
+        "id": 132848,
+        "date": "2019-06-11T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Germany",
+        "away_team": "Estonia",
+        "score": {
+            "home": 8,
+            "away": 0
+        }
+    },
+    {
+        "id": 132849,
+        "date": "2019-06-11T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Belarus",
+        "away_team": "Northern Ireland",
+        "score": {
+            "home": 0,
+            "away": 1
+        }
+    },
+    {
+        "id": 132850,
+        "date": "2019-06-11T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Hungary",
+        "away_team": "Wales",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132851,
+        "date": "2019-06-11T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Iceland",
+        "away_team": "Turkey",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132852,
+        "date": "2019-06-11T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "andorra",
+        "away_team": "France",
+        "score": {
+            "home": 0,
+            "away": 4
+        }
+    },
+    {
+        "id": 132853,
+        "date": "2019-06-11T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Albania",
+        "away_team": "Moldova",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132854,
+        "date": "2019-06-11T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Russia",
+        "away_team": "Cyprus",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132855,
+        "date": "2019-06-11T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Belgium",
+        "away_team": "Scotland",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 132856,
+        "date": "2019-06-11T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Liechtenstein",
+        "away_team": "Finland",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132857,
+        "date": "2019-06-11T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Italy",
+        "away_team": "Bosnia & Herzegovina",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132858,
+        "date": "2019-06-11T18:45:00+00:00",
+        "round": "Qualifying Round - 4",
+        "home_team": "Greece",
+        "away_team": "Armenia",
+        "score": {
+            "home": 2,
+            "away": 3
+        }
+    },
+    {
+        "id": 132859,
+        "date": "2019-09-05T16:00:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Armenia",
+        "away_team": "Italy",
+        "score": {
+            "home": 1,
+            "away": 3
+        }
+    },
+    {
+        "id": 132860,
+        "date": "2019-09-05T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Rep. Of Ireland",
+        "away_team": "Switzerland",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132861,
+        "date": "2019-09-05T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Gibraltar",
+        "away_team": "Denmark",
+        "score": {
+            "home": 0,
+            "away": 6
+        }
+    },
+    {
+        "id": 132862,
+        "date": "2019-09-05T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Romania",
+        "away_team": "Spain",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 132863,
+        "date": "2019-09-05T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Norway",
+        "away_team": "Malta",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132864,
+        "date": "2019-09-05T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Faroe Islands",
+        "away_team": "Sweden",
+        "score": {
+            "home": 0,
+            "away": 4
+        }
+    },
+    {
+        "id": 132865,
+        "date": "2019-09-05T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Israel",
+        "away_team": "FYR Macedonia",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132866,
+        "date": "2019-09-05T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Finland",
+        "away_team": "Greece",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132867,
+        "date": "2019-09-05T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Bosnia & Herzegovina",
+        "away_team": "Liechtenstein",
+        "score": {
+            "home": 5,
+            "away": 0
+        }
+    },
+    {
+        "id": 132868,
+        "date": "2019-09-06T16:00:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Estonia",
+        "away_team": "Belarus",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 132869,
+        "date": "2019-09-06T16:00:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Cyprus",
+        "away_team": "Kazakhstan",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132870,
+        "date": "2019-09-06T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Germany",
+        "away_team": "Netherlands",
+        "score": {
+            "home": 2,
+            "away": 4
+        }
+    },
+    {
+        "id": 132871,
+        "date": "2019-09-06T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Wales",
+        "away_team": "Azerbaijan",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132872,
+        "date": "2019-09-06T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Slovakia",
+        "away_team": "Croatia",
+        "score": {
+            "home": 0,
+            "away": 4
+        }
+    },
+    {
+        "id": 132873,
+        "date": "2019-09-06T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Slovenia",
+        "away_team": "Poland",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132874,
+        "date": "2019-09-06T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Austria",
+        "away_team": "Latvia",
+        "score": {
+            "home": 6,
+            "away": 0
+        }
+    },
+    {
+        "id": 132875,
+        "date": "2019-09-06T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Scotland",
+        "away_team": "Russia",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 132876,
+        "date": "2019-09-06T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "San Marino",
+        "away_team": "Belgium",
+        "score": {
+            "home": 0,
+            "away": 4
+        }
+    },
+    {
+        "id": 132877,
+        "date": "2019-09-07T13:00:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Kosovo",
+        "away_team": "Czech Republic",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132878,
+        "date": "2019-09-07T16:00:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "England",
+        "away_team": "Bulgaria",
+        "score": {
+            "home": 4,
+            "away": 0
+        }
+    },
+    {
+        "id": 132879,
+        "date": "2019-09-07T16:00:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Lithuania",
+        "away_team": "Ukraine",
+        "score": {
+            "home": 0,
+            "away": 3
+        }
+    },
+    {
+        "id": 132880,
+        "date": "2019-09-07T16:00:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Iceland",
+        "away_team": "Moldova",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 132881,
+        "date": "2019-09-07T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Serbia",
+        "away_team": "Portugal",
+        "score": {
+            "home": 2,
+            "away": 4
+        }
+    },
+    {
+        "id": 132882,
+        "date": "2019-09-07T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "Turkey",
+        "away_team": "andorra",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132883,
+        "date": "2019-09-07T18:45:00+00:00",
+        "round": "Qualifying Round - 5",
+        "home_team": "France",
+        "away_team": "Albania",
+        "score": {
+            "home": 4,
+            "away": 1
+        }
+    },
+    {
+        "id": 132884,
+        "date": "2019-09-08T13:00:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Armenia",
+        "away_team": "Bosnia & Herzegovina",
+        "score": {
+            "home": 4,
+            "away": 2
+        }
+    },
+    {
+        "id": 132885,
+        "date": "2019-09-08T16:00:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Switzerland",
+        "away_team": "Gibraltar",
+        "score": {
+            "home": 4,
+            "away": 0
+        }
+    },
+    {
+        "id": 132886,
+        "date": "2019-09-08T16:00:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Georgia",
+        "away_team": "Denmark",
+        "score": {
+            "home": 0,
+            "away": 0
+        }
+    },
+    {
+        "id": 132887,
+        "date": "2019-09-08T16:00:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Romania",
+        "away_team": "Malta",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132888,
+        "date": "2019-09-08T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Spain",
+        "away_team": "Faroe Islands",
+        "score": {
+            "home": 4,
+            "away": 0
+        }
+    },
+    {
+        "id": 132889,
+        "date": "2019-09-08T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Sweden",
+        "away_team": "Norway",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132890,
+        "date": "2019-09-08T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Greece",
+        "away_team": "Liechtenstein",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132891,
+        "date": "2019-09-08T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Finland",
+        "away_team": "Italy",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 132892,
+        "date": "2019-09-09T16:00:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Azerbaijan",
+        "away_team": "Croatia",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132893,
+        "date": "2019-09-09T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Northern Ireland",
+        "away_team": "Germany",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132894,
+        "date": "2019-09-09T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Estonia",
+        "away_team": "Netherlands",
+        "score": {
+            "home": 0,
+            "away": 4
+        }
+    },
+    {
+        "id": 132895,
+        "date": "2019-09-09T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Hungary",
+        "away_team": "Slovakia",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 132896,
+        "date": "2019-09-09T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Slovenia",
+        "away_team": "Israel",
+        "score": {
+            "home": 3,
+            "away": 2
+        }
+    },
+    {
+        "id": 132897,
+        "date": "2019-09-09T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Poland",
+        "away_team": "Austria",
+        "score": {
+            "home": 0,
+            "away": 0
+        }
+    },
+    {
+        "id": 132898,
+        "date": "2019-09-09T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Latvia",
+        "away_team": "FYR Macedonia",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132899,
+        "date": "2019-09-09T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Scotland",
+        "away_team": "Belgium",
+        "score": {
+            "home": 0,
+            "away": 4
+        }
+    },
+    {
+        "id": 132900,
+        "date": "2019-09-09T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "San Marino",
+        "away_team": "Cyprus",
+        "score": {
+            "home": 0,
+            "away": 4
+        }
+    },
+    {
+        "id": 132901,
+        "date": "2019-09-09T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Russia",
+        "away_team": "Kazakhstan",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132902,
+        "date": "2019-09-10T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Montenegro",
+        "away_team": "Czech Republic",
+        "score": {
+            "home": 0,
+            "away": 3
+        }
+    },
+    {
+        "id": 132903,
+        "date": "2019-09-10T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "England",
+        "away_team": "Kosovo",
+        "score": {
+            "home": 5,
+            "away": 3
+        }
+    },
+    {
+        "id": 132904,
+        "date": "2019-09-10T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Luxembourg",
+        "away_team": "Serbia",
+        "score": {
+            "home": 1,
+            "away": 3
+        }
+    },
+    {
+        "id": 132905,
+        "date": "2019-09-10T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Lithuania",
+        "away_team": "Portugal",
+        "score": {
+            "home": 1,
+            "away": 5
+        }
+    },
+    {
+        "id": 132906,
+        "date": "2019-09-10T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Moldova",
+        "away_team": "Turkey",
+        "score": {
+            "home": 0,
+            "away": 4
+        }
+    },
+    {
+        "id": 132907,
+        "date": "2019-09-10T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "France",
+        "away_team": "andorra",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 132908,
+        "date": "2019-09-10T18:45:00+00:00",
+        "round": "Qualifying Round - 6",
+        "home_team": "Albania",
+        "away_team": "Iceland",
+        "score": {
+            "home": 4,
+            "away": 2
+        }
+    },
+    {
+        "id": 132909,
+        "date": "2019-10-10T14:00:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Kazakhstan",
+        "away_team": "Cyprus",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 132910,
+        "date": "2019-10-10T16:00:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Belarus",
+        "away_team": "Estonia",
+        "score": {
+            "home": 0,
+            "away": 0
+        }
+    },
+    {
+        "id": 132911,
+        "date": "2019-10-10T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Netherlands",
+        "away_team": "Northern Ireland",
+        "score": {
+            "home": 3,
+            "away": 1
+        }
+    },
+    {
+        "id": 132912,
+        "date": "2019-10-10T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Slovakia",
+        "away_team": "Wales",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132913,
+        "date": "2019-10-10T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Croatia",
+        "away_team": "Hungary",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 132914,
+        "date": "2019-10-10T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Latvia",
+        "away_team": "Poland",
+        "score": {
+            "home": 0,
+            "away": 3
+        }
+    },
+    {
+        "id": 132915,
+        "date": "2019-10-10T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "FYR Macedonia",
+        "away_team": "Slovenia",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132916,
+        "date": "2019-10-10T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Austria",
+        "away_team": "Israel",
+        "score": {
+            "home": 3,
+            "away": 1
+        }
+    },
+    {
+        "id": 132917,
+        "date": "2019-10-10T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Russia",
+        "away_team": "Scotland",
+        "score": {
+            "home": 4,
+            "away": 0
+        }
+    },
+    {
+        "id": 132918,
+        "date": "2019-10-10T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Belgium",
+        "away_team": "San Marino",
+        "score": {
+            "home": 9,
+            "away": 0
+        }
+    },
+    {
+        "id": 132919,
+        "date": "2019-10-11T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Montenegro",
+        "away_team": "Bulgaria",
+        "score": {
+            "home": 0,
+            "away": 0
+        }
+    },
+    {
+        "id": 132920,
+        "date": "2019-10-11T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Czech Republic",
+        "away_team": "England",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132921,
+        "date": "2019-10-11T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Ukraine",
+        "away_team": "Lithuania",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132922,
+        "date": "2019-10-11T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Portugal",
+        "away_team": "Luxembourg",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 132923,
+        "date": "2019-10-11T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Turkey",
+        "away_team": "Albania",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132924,
+        "date": "2019-10-11T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Iceland",
+        "away_team": "France",
+        "score": {
+            "home": 0,
+            "away": 1
+        }
+    },
+    {
+        "id": 132925,
+        "date": "2019-10-11T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "andorra",
+        "away_team": "Moldova",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132926,
+        "date": "2019-10-12T13:00:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Georgia",
+        "away_team": "Rep. Of Ireland",
+        "score": {
+            "home": 0,
+            "away": 0
+        }
+    },
+    {
+        "id": 132927,
+        "date": "2019-10-12T16:00:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Denmark",
+        "away_team": "Switzerland",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132928,
+        "date": "2019-10-12T16:00:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Faroe Islands",
+        "away_team": "Romania",
+        "score": {
+            "home": 0,
+            "away": 3
+        }
+    },
+    {
+        "id": 132929,
+        "date": "2019-10-12T16:00:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Bosnia & Herzegovina",
+        "away_team": "Finland",
+        "score": {
+            "home": 4,
+            "away": 1
+        }
+    },
+    {
+        "id": 132930,
+        "date": "2019-10-12T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Norway",
+        "away_team": "Spain",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132931,
+        "date": "2019-10-12T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Malta",
+        "away_team": "Sweden",
+        "score": {
+            "home": 0,
+            "away": 4
+        }
+    },
+    {
+        "id": 132932,
+        "date": "2019-10-12T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Liechtenstein",
+        "away_team": "Armenia",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132933,
+        "date": "2019-10-12T18:45:00+00:00",
+        "round": "Qualifying Round - 7",
+        "home_team": "Italy",
+        "away_team": "Greece",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132934,
+        "date": "2019-10-13T13:00:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Kazakhstan",
+        "away_team": "Belgium",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132935,
+        "date": "2019-10-13T16:00:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Belarus",
+        "away_team": "Netherlands",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 132936,
+        "date": "2019-10-13T16:00:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Hungary",
+        "away_team": "Azerbaijan",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132937,
+        "date": "2019-10-13T16:00:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Scotland",
+        "away_team": "San Marino",
+        "score": {
+            "home": 6,
+            "away": 0
+        }
+    },
+    {
+        "id": 132938,
+        "date": "2019-10-13T16:00:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Cyprus",
+        "away_team": "Russia",
+        "score": {
+            "home": 0,
+            "away": 5
+        }
+    },
+    {
+        "id": 132939,
+        "date": "2019-10-13T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Estonia",
+        "away_team": "Germany",
+        "score": {
+            "home": 0,
+            "away": 3
+        }
+    },
+    {
+        "id": 132940,
+        "date": "2019-10-13T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Wales",
+        "away_team": "Croatia",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132941,
+        "date": "2019-10-13T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Slovenia",
+        "away_team": "Austria",
+        "score": {
+            "home": 0,
+            "away": 1
+        }
+    },
+    {
+        "id": 132942,
+        "date": "2019-10-13T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Poland",
+        "away_team": "FYR Macedonia",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132943,
+        "date": "2019-10-14T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Kosovo",
+        "away_team": "Montenegro",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132944,
+        "date": "2019-10-14T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Bulgaria",
+        "away_team": "England",
+        "score": {
+            "home": 0,
+            "away": 6
+        }
+    },
+    {
+        "id": 132945,
+        "date": "2019-10-14T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Ukraine",
+        "away_team": "Portugal",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132946,
+        "date": "2019-10-14T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Lithuania",
+        "away_team": "Serbia",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 132947,
+        "date": "2019-10-14T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Moldova",
+        "away_team": "Albania",
+        "score": {
+            "home": 0,
+            "away": 4
+        }
+    },
+    {
+        "id": 132948,
+        "date": "2019-10-14T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Iceland",
+        "away_team": "andorra",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132949,
+        "date": "2019-10-14T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "France",
+        "away_team": "Turkey",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132950,
+        "date": "2019-10-15T16:00:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Finland",
+        "away_team": "Armenia",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 132951,
+        "date": "2019-10-15T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Switzerland",
+        "away_team": "Rep. Of Ireland",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 132952,
+        "date": "2019-10-15T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Gibraltar",
+        "away_team": "Georgia",
+        "score": {
+            "home": 2,
+            "away": 3
+        }
+    },
+    {
+        "id": 132953,
+        "date": "2019-10-15T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Sweden",
+        "away_team": "Spain",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132954,
+        "date": "2019-10-15T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Romania",
+        "away_team": "Norway",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132955,
+        "date": "2019-10-15T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Faroe Islands",
+        "away_team": "Malta",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132956,
+        "date": "2019-10-15T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Israel",
+        "away_team": "Latvia",
+        "score": {
+            "home": 3,
+            "away": 1
+        }
+    },
+    {
+        "id": 132957,
+        "date": "2019-10-15T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Liechtenstein",
+        "away_team": "Italy",
+        "score": {
+            "home": 0,
+            "away": 5
+        }
+    },
+    {
+        "id": 132958,
+        "date": "2019-10-15T18:45:00+00:00",
+        "round": "Qualifying Round - 8",
+        "home_team": "Greece",
+        "away_team": "Bosnia & Herzegovina",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132959,
+        "date": "2019-11-14T17:00:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Turkey",
+        "away_team": "Iceland",
+        "score": {
+            "home": 0,
+            "away": 0
+        }
+    },
+    {
+        "id": 132960,
+        "date": "2019-11-14T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "England",
+        "away_team": "Montenegro",
+        "score": {
+            "home": 7,
+            "away": 0
+        }
+    },
+    {
+        "id": 132961,
+        "date": "2019-11-14T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Czech Republic",
+        "away_team": "Kosovo",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132962,
+        "date": "2019-11-14T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Serbia",
+        "away_team": "Luxembourg",
+        "score": {
+            "home": 3,
+            "away": 2
+        }
+    },
+    {
+        "id": 132963,
+        "date": "2019-11-14T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Portugal",
+        "away_team": "Lithuania",
+        "score": {
+            "home": 6,
+            "away": 0
+        }
+    },
+    {
+        "id": 132964,
+        "date": "2019-11-14T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "France",
+        "away_team": "Moldova",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132965,
+        "date": "2019-11-14T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Albania",
+        "away_team": "andorra",
+        "score": {
+            "home": 2,
+            "away": 2
+        }
+    },
+    {
+        "id": 132966,
+        "date": "2019-11-15T17:00:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Finland",
+        "away_team": "Liechtenstein",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 132967,
+        "date": "2019-11-15T17:00:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Armenia",
+        "away_team": "Greece",
+        "score": {
+            "home": 0,
+            "away": 1
+        }
+    },
+    {
+        "id": 132968,
+        "date": "2019-11-15T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Switzerland",
+        "away_team": "Georgia",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132969,
+        "date": "2019-11-15T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Denmark",
+        "away_team": "Gibraltar",
+        "score": {
+            "home": 6,
+            "away": 0
+        }
+    },
+    {
+        "id": 132970,
+        "date": "2019-11-15T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Spain",
+        "away_team": "Malta",
+        "score": {
+            "home": 7,
+            "away": 0
+        }
+    },
+    {
+        "id": 132971,
+        "date": "2019-11-15T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Romania",
+        "away_team": "Sweden",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132972,
+        "date": "2019-11-15T17:00:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Norway",
+        "away_team": "Faroe Islands",
+        "score": {
+            "home": 4,
+            "away": 0
+        }
+    },
+    {
+        "id": 132973,
+        "date": "2019-11-15T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Bosnia & Herzegovina",
+        "away_team": "Italy",
+        "score": {
+            "home": 0,
+            "away": 3
+        }
+    },
+    {
+        "id": 132974,
+        "date": "2019-11-16T14:00:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Cyprus",
+        "away_team": "Scotland",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 132975,
+        "date": "2019-11-16T17:00:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Azerbaijan",
+        "away_team": "Wales",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132976,
+        "date": "2019-11-16T17:00:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Slovenia",
+        "away_team": "Latvia",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132977,
+        "date": "2019-11-16T17:00:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "San Marino",
+        "away_team": "Kazakhstan",
+        "score": {
+            "home": 1,
+            "away": 3
+        }
+    },
+    {
+        "id": 132978,
+        "date": "2019-11-16T17:00:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Russia",
+        "away_team": "Belgium",
+        "score": {
+            "home": 1,
+            "away": 4
+        }
+    },
+    {
+        "id": 132979,
+        "date": "2019-11-16T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Northern Ireland",
+        "away_team": "Netherlands",
+        "score": {
+            "home": 0,
+            "away": 0
+        }
+    },
+    {
+        "id": 132980,
+        "date": "2019-11-16T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Germany",
+        "away_team": "Belarus",
+        "score": {
+            "home": 4,
+            "away": 0
+        }
+    },
+    {
+        "id": 132981,
+        "date": "2019-11-16T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Croatia",
+        "away_team": "Slovakia",
+        "score": {
+            "home": 3,
+            "away": 1
+        }
+    },
+    {
+        "id": 132982,
+        "date": "2019-11-16T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Israel",
+        "away_team": "Poland",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 132983,
+        "date": "2019-11-16T19:45:00+00:00",
+        "round": "Qualifying Round - 9",
+        "home_team": "Austria",
+        "away_team": "FYR Macedonia",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132984,
+        "date": "2019-11-17T14:00:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Serbia",
+        "away_team": "Ukraine",
+        "score": {
+            "home": 2,
+            "away": 2
+        }
+    },
+    {
+        "id": 132985,
+        "date": "2019-11-17T14:00:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Luxembourg",
+        "away_team": "Portugal",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132986,
+        "date": "2019-11-17T17:00:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Kosovo",
+        "away_team": "England",
+        "score": {
+            "home": 0,
+            "away": 4
+        }
+    },
+    {
+        "id": 132987,
+        "date": "2019-11-17T17:00:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Bulgaria",
+        "away_team": "Czech Republic",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 132988,
+        "date": "2019-11-17T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Moldova",
+        "away_team": "Iceland",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 132989,
+        "date": "2019-11-17T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "andorra",
+        "away_team": "Turkey",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132990,
+        "date": "2019-11-17T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Albania",
+        "away_team": "France",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 132991,
+        "date": "2019-11-18T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Rep. Of Ireland",
+        "away_team": "Denmark",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 132992,
+        "date": "2019-11-18T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Gibraltar",
+        "away_team": "Switzerland",
+        "score": {
+            "home": 1,
+            "away": 6
+        }
+    },
+    {
+        "id": 132993,
+        "date": "2019-11-18T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Sweden",
+        "away_team": "Faroe Islands",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 132994,
+        "date": "2019-11-18T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Spain",
+        "away_team": "Romania",
+        "score": {
+            "home": 5,
+            "away": 0
+        }
+    },
+    {
+        "id": 132995,
+        "date": "2019-11-18T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Malta",
+        "away_team": "Norway",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 132996,
+        "date": "2019-11-18T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Liechtenstein",
+        "away_team": "Bosnia & Herzegovina",
+        "score": {
+            "home": 0,
+            "away": 3
+        }
+    },
+    {
+        "id": 132997,
+        "date": "2019-11-18T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Italy",
+        "away_team": "Armenia",
+        "score": {
+            "home": 9,
+            "away": 1
+        }
+    },
+    {
+        "id": 132998,
+        "date": "2019-11-18T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Greece",
+        "away_team": "Finland",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 132999,
+        "date": "2019-11-19T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Netherlands",
+        "away_team": "Estonia",
+        "score": {
+            "home": 5,
+            "away": 0
+        }
+    },
+    {
+        "id": 133000,
+        "date": "2019-11-19T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Germany",
+        "away_team": "Northern Ireland",
+        "score": {
+            "home": 6,
+            "away": 1
+        }
+    },
+    {
+        "id": 133001,
+        "date": "2019-11-19T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Wales",
+        "away_team": "Hungary",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 133002,
+        "date": "2019-11-19T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Slovakia",
+        "away_team": "Azerbaijan",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 133003,
+        "date": "2019-11-19T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Poland",
+        "away_team": "Slovenia",
+        "score": {
+            "home": 3,
+            "away": 2
+        }
+    },
+    {
+        "id": 133004,
+        "date": "2019-11-19T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Latvia",
+        "away_team": "Austria",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 133005,
+        "date": "2019-11-19T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "FYR Macedonia",
+        "away_team": "Israel",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 133006,
+        "date": "2019-11-19T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Belgium",
+        "away_team": "Cyprus",
+        "score": {
+            "home": 6,
+            "away": 1
+        }
+    },
+    {
+        "id": 133007,
+        "date": "2019-11-19T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "San Marino",
+        "away_team": "Russia",
+        "score": {
+            "home": 0,
+            "away": 5
+        }
+    },
+    {
+        "id": 133008,
+        "date": "2019-11-19T19:45:00+00:00",
+        "round": "Qualifying Round - 10",
+        "home_team": "Scotland",
+        "away_team": "Kazakhstan",
+        "score": {
+            "home": 3,
+            "away": 1
+        }
+    },
+    {
+        "id": 569448,
+        "date": "2020-10-08T16:00:00+00:00",
+        "round": "Qualifying Play-offs Path D - Semi-Finals",
+        "home_team": "Georgia",
+        "away_team": "Belarus",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 569449,
+        "date": "2020-10-08T18:45:00+00:00",
+        "round": "Qualifying Play-offs Path D - Semi-Finals",
+        "home_team": "FYR Macedonia",
+        "away_team": "Kosovo",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 569450,
+        "date": "2020-10-08T18:45:00+00:00",
+        "round": "Qualifying Play-offs Path C - Semi-Finals",
+        "home_team": "Scotland",
+        "away_team": "Israel",
+        "score": {
+            "home": 0,
+            "away": 0
+        }
+    },
+    {
+        "id": 569451,
+        "date": "2020-10-08T18:45:00+00:00",
+        "round": "Qualifying Play-offs Path C - Semi-Finals",
+        "home_team": "Norway",
+        "away_team": "Serbia",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 569452,
+        "date": "2020-10-08T18:45:00+00:00",
+        "round": "Qualifying Play-offs Path B - Semi-Finals",
+        "home_team": "Bosnia & Herzegovina",
+        "away_team": "Northern Ireland",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 569453,
+        "date": "2020-10-08T18:45:00+00:00",
+        "round": "Qualifying Play-offs Path B - Semi-Finals",
+        "home_team": "Slovakia",
+        "away_team": "Rep. Of Ireland",
+        "score": {
+            "home": 0,
+            "away": 0
+        }
+    },
+    {
+        "id": 569454,
+        "date": "2020-10-08T18:45:00+00:00",
+        "round": "Qualifying Play-offs Path A - Semi-Finals",
+        "home_team": "Iceland",
+        "away_team": "Romania",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 569455,
+        "date": "2020-10-08T18:45:00+00:00",
+        "round": "Qualifying Play-offs Path A - Semi-Finals",
+        "home_team": "Bulgaria",
+        "away_team": "Hungary",
+        "score": {
+            "home": 1,
+            "away": 3
+        }
+    },
+    {
+        "id": 640594,
+        "date": "2020-11-12T17:00:00+00:00",
+        "round": "Qualifying Play-offs Path D - Final",
+        "home_team": "Georgia",
+        "away_team": "FYR Macedonia",
+        "score": {
+            "home": 0,
+            "away": 1
+        }
+    },
+    {
+        "id": 640595,
+        "date": "2020-11-12T19:45:00+00:00",
+        "round": "Qualifying Play-offs Path C - Final",
+        "home_team": "Serbia",
+        "away_team": "Scotland",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 640596,
+        "date": "2020-11-12T19:45:00+00:00",
+        "round": "Qualifying Play-offs Path B - Final",
+        "home_team": "Northern Ireland",
+        "away_team": "Slovakia",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 640597,
+        "date": "2020-11-12T19:45:00+00:00",
+        "round": "Qualifying Play-offs Path A - Final",
+        "home_team": "Hungary",
+        "away_team": "Iceland",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 657674,
+        "date": "2021-06-11T19:00:00+00:00",
+        "round": "Group A - 1",
+        "home_team": "Turkey",
+        "away_team": "Italy",
+        "score": {
+            "home": 0,
+            "away": 3
+        }
+    },
+    {
+        "id": 657675,
+        "date": "2021-06-12T13:00:00+00:00",
+        "round": "Group A - 1",
+        "home_team": "Wales",
+        "away_team": "Switzerland",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 657676,
+        "date": "2021-06-12T16:00:00+00:00",
+        "round": "Group B - 1",
+        "home_team": "Denmark",
+        "away_team": "Finland",
+        "score": {
+            "home": 0,
+            "away": 1
+        }
+    },
+    {
+        "id": 657677,
+        "date": "2021-06-12T19:00:00+00:00",
+        "round": "Group B - 1",
+        "home_team": "Belgium",
+        "away_team": "Russia",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 657678,
+        "date": "2021-06-13T13:00:00+00:00",
+        "round": "Group D - 1",
+        "home_team": "England",
+        "away_team": "Croatia",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 657679,
+        "date": "2021-06-13T16:00:00+00:00",
+        "round": "Group C - 1",
+        "home_team": "Austria",
+        "away_team": "FYR Macedonia",
+        "score": {
+            "home": 3,
+            "away": 1
+        }
+    },
+    {
+        "id": 657680,
+        "date": "2021-06-13T19:00:00+00:00",
+        "round": "Group C - 1",
+        "home_team": "Netherlands",
+        "away_team": "Ukraine",
+        "score": {
+            "home": 3,
+            "away": 2
+        }
+    },
+    {
+        "id": 657681,
+        "date": "2021-06-14T13:00:00+00:00",
+        "round": "Group D - 1",
+        "home_team": "Scotland",
+        "away_team": "Czech Republic",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 657682,
+        "date": "2021-06-14T16:00:00+00:00",
+        "round": "Group E - 1",
+        "home_team": "Poland",
+        "away_team": "Slovakia",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 657683,
+        "date": "2021-06-14T19:00:00+00:00",
+        "round": "Group E - 1",
+        "home_team": "Spain",
+        "away_team": "Sweden",
+        "score": {
+            "home": 0,
+            "away": 0
+        }
+    },
+    {
+        "id": 657684,
+        "date": "2021-06-15T16:00:00+00:00",
+        "round": "Group F - 1",
+        "home_team": "Hungary",
+        "away_team": "Portugal",
+        "score": {
+            "home": 0,
+            "away": 3
+        }
+    },
+    {
+        "id": 657685,
+        "date": "2021-06-15T19:00:00+00:00",
+        "round": "Group F - 1",
+        "home_team": "France",
+        "away_team": "Germany",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 657686,
+        "date": "2021-06-16T13:00:00+00:00",
+        "round": "Group B - 2",
+        "home_team": "Finland",
+        "away_team": "Russia",
+        "score": {
+            "home": 0,
+            "away": 1
+        }
+    },
+    {
+        "id": 657687,
+        "date": "2021-06-16T16:00:00+00:00",
+        "round": "Group A - 2",
+        "home_team": "Turkey",
+        "away_team": "Wales",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 657688,
+        "date": "2021-06-16T19:00:00+00:00",
+        "round": "Group A - 2",
+        "home_team": "Italy",
+        "away_team": "Switzerland",
+        "score": {
+            "home": 3,
+            "away": 0
+        }
+    },
+    {
+        "id": 657689,
+        "date": "2021-06-17T13:00:00+00:00",
+        "round": "Group C - 2",
+        "home_team": "Ukraine",
+        "away_team": "FYR Macedonia",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 657690,
+        "date": "2021-06-17T16:00:00+00:00",
+        "round": "Group B - 2",
+        "home_team": "Denmark",
+        "away_team": "Belgium",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 657691,
+        "date": "2021-06-17T19:00:00+00:00",
+        "round": "Group C - 2",
+        "home_team": "Netherlands",
+        "away_team": "Austria",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 657692,
+        "date": "2021-06-18T13:00:00+00:00",
+        "round": "Group E - 2",
+        "home_team": "Sweden",
+        "away_team": "Slovakia",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 657693,
+        "date": "2021-06-18T16:00:00+00:00",
+        "round": "Group D - 2",
+        "home_team": "Croatia",
+        "away_team": "Czech Republic",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 657694,
+        "date": "2021-06-18T19:00:00+00:00",
+        "round": "Group D - 2",
+        "home_team": "England",
+        "away_team": "Scotland",
+        "score": {
+            "home": 0,
+            "away": 0
+        }
+    },
+    {
+        "id": 657695,
+        "date": "2021-06-19T13:00:00+00:00",
+        "round": "Group F - 2",
+        "home_team": "Hungary",
+        "away_team": "France",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 657696,
+        "date": "2021-06-19T16:00:00+00:00",
+        "round": "Group F - 2",
+        "home_team": "Portugal",
+        "away_team": "Germany",
+        "score": {
+            "home": 2,
+            "away": 4
+        }
+    },
+    {
+        "id": 657697,
+        "date": "2021-06-19T19:00:00+00:00",
+        "round": "Group E - 2",
+        "home_team": "Spain",
+        "away_team": "Poland",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 657698,
+        "date": "2021-06-20T16:00:00+00:00",
+        "round": "Group A - 3",
+        "home_team": "Switzerland",
+        "away_team": "Turkey",
+        "score": {
+            "home": 3,
+            "away": 1
+        }
+    },
+    {
+        "id": 657699,
+        "date": "2021-06-20T16:00:00+00:00",
+        "round": "Group A - 3",
+        "home_team": "Italy",
+        "away_team": "Wales",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 657700,
+        "date": "2021-06-21T16:00:00+00:00",
+        "round": "Group C - 3",
+        "home_team": "Ukraine",
+        "away_team": "Austria",
+        "score": {
+            "home": 0,
+            "away": 1
+        }
+    },
+    {
+        "id": 657701,
+        "date": "2021-06-21T16:00:00+00:00",
+        "round": "Group C - 3",
+        "home_team": "FYR Macedonia",
+        "away_team": "Netherlands",
+        "score": {
+            "home": 0,
+            "away": 3
+        }
+    },
+    {
+        "id": 657702,
+        "date": "2021-06-21T19:00:00+00:00",
+        "round": "Group B - 3",
+        "home_team": "Russia",
+        "away_team": "Denmark",
+        "score": {
+            "home": 1,
+            "away": 4
+        }
+    },
+    {
+        "id": 657703,
+        "date": "2021-06-21T19:00:00+00:00",
+        "round": "Group B - 3",
+        "home_team": "Finland",
+        "away_team": "Belgium",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 657704,
+        "date": "2021-06-22T19:00:00+00:00",
+        "round": "Group D - 3",
+        "home_team": "Croatia",
+        "away_team": "Scotland",
+        "score": {
+            "home": 3,
+            "away": 1
+        }
+    },
+    {
+        "id": 657705,
+        "date": "2021-06-22T19:00:00+00:00",
+        "round": "Group D - 3",
+        "home_team": "Czech Republic",
+        "away_team": "England",
+        "score": {
+            "home": 0,
+            "away": 1
+        }
+    },
+    {
+        "id": 657706,
+        "date": "2021-06-23T16:00:00+00:00",
+        "round": "Group E - 3",
+        "home_team": "Sweden",
+        "away_team": "Poland",
+        "score": {
+            "home": 3,
+            "away": 2
+        }
+    },
+    {
+        "id": 657707,
+        "date": "2021-06-23T16:00:00+00:00",
+        "round": "Group E - 3",
+        "home_team": "Slovakia",
+        "away_team": "Spain",
+        "score": {
+            "home": 0,
+            "away": 5
+        }
+    },
+    {
+        "id": 657708,
+        "date": "2021-06-23T19:00:00+00:00",
+        "round": "Group F - 3",
+        "home_team": "Portugal",
+        "away_team": "France",
+        "score": {
+            "home": 2,
+            "away": 2
+        }
+    },
+    {
+        "id": 657709,
+        "date": "2021-06-23T19:00:00+00:00",
+        "round": "Group F - 3",
+        "home_team": "Germany",
+        "away_team": "Hungary",
+        "score": {
+            "home": 2,
+            "away": 2
+        }
+    },
+    {
+        "id": 713160,
+        "date": "2021-06-26T16:00:00+00:00",
+        "round": "8th Finals",
+        "home_team": "Wales",
+        "away_team": "Denmark",
+        "score": {
+            "home": 0,
+            "away": 4
+        }
+    },
+    {
+        "id": 713161,
+        "date": "2021-06-26T19:00:00+00:00",
+        "round": "8th Finals",
+        "home_team": "Italy",
+        "away_team": "Austria",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 713471,
+        "date": "2021-06-27T16:00:00+00:00",
+        "round": "8th Finals",
+        "home_team": "Netherlands",
+        "away_team": "Czech Republic",
+        "score": {
+            "home": 0,
+            "away": 2
+        }
+    },
+    {
+        "id": 713472,
+        "date": "2021-06-28T16:00:00+00:00",
+        "round": "8th Finals",
+        "home_team": "Croatia",
+        "away_team": "Spain",
+        "score": {
+            "home": 3,
+            "away": 5
+        }
+    },
+    {
+        "id": 713473,
+        "date": "2021-06-27T19:00:00+00:00",
+        "round": "8th Finals",
+        "home_team": "Belgium",
+        "away_team": "Portugal",
+        "score": {
+            "home": 1,
+            "away": 0
+        }
+    },
+    {
+        "id": 713474,
+        "date": "2021-06-28T19:00:00+00:00",
+        "round": "8th Finals",
+        "home_team": "France",
+        "away_team": "Switzerland",
+        "score": {
+            "home": 3,
+            "away": 3
+        }
+    },
+    {
+        "id": 713475,
+        "date": "2021-06-29T16:00:00+00:00",
+        "round": "8th Finals",
+        "home_team": "England",
+        "away_team": "Germany",
+        "score": {
+            "home": 2,
+            "away": 0
+        }
+    },
+    {
+        "id": 713476,
+        "date": "2021-06-29T19:00:00+00:00",
+        "round": "8th Finals",
+        "home_team": "Sweden",
+        "away_team": "Ukraine",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 718186,
+        "date": "2021-07-03T16:00:00+00:00",
+        "round": "Quarter-finals",
+        "home_team": "Czech Republic",
+        "away_team": "Denmark",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 718242,
+        "date": "2021-07-02T19:00:00+00:00",
+        "round": "Quarter-finals",
+        "home_team": "Belgium",
+        "away_team": "Italy",
+        "score": {
+            "home": 1,
+            "away": 2
+        }
+    },
+    {
+        "id": 718243,
+        "date": "2021-07-02T16:00:00+00:00",
+        "round": "Quarter-finals",
+        "home_team": "Switzerland",
+        "away_team": "Spain",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 718252,
+        "date": "2021-07-03T19:00:00+00:00",
+        "round": "Quarter-finals",
+        "home_team": "Ukraine",
+        "away_team": "England",
+        "score": {
+            "home": 0,
+            "away": 4
+        }
+    },
+    {
+        "id": 721122,
+        "date": "2021-07-06T19:00:00+00:00",
+        "round": "Semi-finals",
+        "home_team": "Italy",
+        "away_team": "Spain",
+        "score": {
+            "home": 1,
+            "away": 1
+        }
+    },
+    {
+        "id": 721123,
+        "date": "2021-07-07T19:00:00+00:00",
+        "round": "Semi-finals",
+        "home_team": "England",
+        "away_team": "Denmark",
+        "score": {
+            "home": 2,
+            "away": 1
+        }
+    },
+    {
+        "id": 723370,
+        "date": "2021-07-11T19:00:00+00:00",
+        "round": "Final",
+        "home_team": "Italy",
+        "away_team": "England",
+        "score": {
+            "home": null,
+            "away": null
+        }
+    }
+]
