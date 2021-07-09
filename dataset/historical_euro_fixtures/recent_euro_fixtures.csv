@@ -1,0 +1,37 @@
+date,home_team,away_team,home_score,away_score,tournament,city,country,neutral
+2021-06-11,Italy,Turkey,3.0,0.0,UEFA Euro,Rome,Italy,False
+2021-06-12,Wales,Switzerland,1.0,1.0,UEFA Euro,Cardiff,Wales,False
+2021-06-12,Denmark,Finland,0.0,1.0,UEFA Euro,Copenhagen,Denmark,False
+2021-06-12,Russia,Belgium,0.0,3.0,UEFA Euro,Saint Petersburg,Russia,False
+2021-06-13,Austria,North Macedonia,3.0,1.0,UEFA Euro,Bucharest,Romania,True
+2021-06-13,Netherlands,Ukraine,3.0,2.0,UEFA Euro,Amsterdam,Netherlands,False
+2021-06-13,England,Croatia,1.0,0.0,UEFA Euro,London,England,False
+2021-06-14,Scotland,Czech Republic,0.0,2.0,UEFA Euro,Glasgow,Scotland,False
+2021-06-14,Poland,Slovakia,1.0,2.0,UEFA Euro,Saint Petersburg,Russia,True
+2021-06-14,Spain,Sweden,0.0,0.0,UEFA Euro,Seville,Spain,False
+2021-06-15,Hungary,Portugal,0.0,3.0,UEFA Euro,Budapest,Hungary,False
+2021-06-15,Germany,France,0.0,1.0,UEFA Euro,Munich,Germany,False
+2021-06-16,Turkey,Wales,0.0,2.0,UEFA Euro,Baku,Azerbaijan,True
+2021-06-16,Italy,Switzerland,3.0,0.0,UEFA Euro,Rome,Italy,False
+2021-06-16,Russia,Finland,1.0,0.0,UEFA Euro,Saint Petersburg,Russia,False
+2021-06-17,Denmark,Belgium,1.0,2.0,UEFA Euro,Copenhagen,Denmark,False
+2021-06-17,Ukraine,North Macedonia,2.0,1.0,UEFA Euro,Bucharest,Romania,True
+2021-06-17,Netherlands,Austria,2.0,0.0,UEFA Euro,Amsterdam,Netherlands,False
+2021-06-18,Croatia,Czech Republic,1.0,1.0,UEFA Euro,Glasgow,Scotland,True
+2021-06-18,England,Scotland,0.0,0.0,UEFA Euro,London,England,False
+2021-06-18,Sweden,Slovakia,1.0,0.0,UEFA Euro,Saint Petersburg,Russia,True
+2021-06-19,Spain,Poland,1.0,1.0,UEFA Euro,Seville,Spain,False
+2021-06-19,Hungary,France,1.0,1.0,UEFA Euro,Budapest,Hungary,False
+2021-06-19,Germany,Portugal,4.0,2.0,UEFA Euro,Munich,Germany,False
+2021-06-20,Italy,Wales,1.0,0.0,UEFA Euro,Rome,Italy,False
+2021-06-20,Switzerland,Turkey,3.0,1.0,UEFA Euro,Baku,Azerbaijan,True
+2021-06-21,Denmark,Russia,4.0,1.0,UEFA Euro,Copenhagen,Denmark,False
+2021-06-21,Finland,Belgium,0.0,2.0,UEFA Euro,Saint Petersburg,Russia,True
+2021-06-21,Netherlands,North Macedonia,3.0,0.0,UEFA Euro,Amsterdam,Netherlands,False
+2021-06-21,Ukraine,Austria,0.0,1.0,UEFA Euro,Bucharest,Romania,True
+2021-06-22,Scotland,Croatia,1.0,3.0,UEFA Euro,Glasgow,Scotland,False
+2021-06-22,England,Czech Republic,1.0,0.0,UEFA Euro,London,England,False
+2021-06-23,Spain,Slovakia,5.0,0.0,UEFA Euro,Seville,Spain,False
+2021-06-23,Sweden,Poland,3.0,2.0,UEFA Euro,Saint Petersburg,Russia,True
+2021-06-23,Germany,Hungary,2.0,2.0,UEFA Euro,Munich,Germany,False
+2021-06-23,Portugal,France,2.0,2.0,UEFA Euro,Budapest,Hungary,True
