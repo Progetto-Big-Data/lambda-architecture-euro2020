@@ -1,7 +1,6 @@
 import json
 import argparse
 import os
-from posixpath import dirname
 
 parser = argparse.ArgumentParser()
 parser.add_argument('filename', help='path to the fixture file to be processed', type=str)
