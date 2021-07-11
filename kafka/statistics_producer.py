@@ -1,9 +1,7 @@
 import json
-from os import sep
 from time import sleep
 from json import dumps
 from kafka import KafkaProducer
-import csv 
 
 producer = KafkaProducer(
     bootstrap_servers=['localhost:9092'],
