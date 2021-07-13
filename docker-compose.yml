@@ -32,7 +32,32 @@ services:
             MONGO_INITDB_ROOT_PASSWORD: secret
         volumes: 
             - mongodb_data_container:/data/db
-      
+
+
+    charts:
+      build:
+        context: 'docker/charts'
+        args:
+          - EMAIL=admin@mail.com
+          - PASSWORD=secret
+      image: 84c23ddf6527
+      ports:
+        - 8080:80
+      environment:
+        CHARTS_SUPPORT_WIDGET_AND_METRICS: 'on'
+        CHARTS_MONGODB_URI: 'mongodb://root:secret@mongodb:27017'
+      volumes:
+        - keys:/mongodb-charts/volumes/keys
+        - logs:/mongodb-charts/volumes/logs
+        - db-certs:/mongodb-charts/volumes/db-certs
+        - web-certs:/mongodb-charts/volumes/web-certs
+      depends_on:
+        - mongodb
+      container_name: charts
 
 volumes: 
     mongodb_data_container:
+    keys:
+    logs:
+    db-certs:
+    web-certs:
