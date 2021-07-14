@@ -1,3 +1,4 @@
+from os import stat
 import faust
 import pymongo
 import json
@@ -18,8 +19,8 @@ app = faust.App(
 window_size = 30
 window_step = 5
 
-home_team = app.Table('home_stats', default=int, partitions=1).hopping(window_size, window_step)
-away_team = app.Table('away_stats', default=int, partitions=1).hopping(window_size, window_step)
+home_team = app.Table('home_stats', default=int, partitions=1).hopping(window_size, window_step, key_index=True)
+away_team = app.Table('away_stats', default=int, partitions=1).hopping(window_size, window_step, key_index=True)
 
 topic = app.topic('fixture_718186')
 
@@ -27,16 +28,31 @@ topic = app.topic('fixture_718186')
 def save_to_mongo(data):
         db.fixture_718186.insert_one(data)
 
+def extract_stats(team, stats):
+    stats = stats['statistics']
+    for stat in stats:
+        key, value = stat['type'], stat['value']
+        team[key] += value
+
+# put the current faust table in a python dictionary
+def persist_table(table):
+    stats = {}
+    for stat, value in table.items().delta(window_size):
+        stats[stat] = value
+    save_to_mongo(stats)
+
 @app.agent(topic)
 async def fixture(minutes):
     async for minute in minutes:
-        #save_to_mongo(minute)
-        
-        home_shots_on_goal = minute['statistics'][0]['statistics'][0]['value']
-        away_shots_on_goal = minute['statistics'][1]['statistics'][0]['value']
 
-        home_team['shots_on_goal'] += home_shots_on_goal
-        away_team['shots_on_goal'] += away_shots_on_goal
+        home_stats = minute['statistics'][0]
+        away_stats = minute['statistics'][1]
 
-        print(f'home: {home_team["shots_on_goal"].delta(window_size)}, away: {away_team["shots_on_goal"].delta(window_size)}')
+        extract_stats(home_team, home_stats)
+        extract_stats(away_team, away_stats)
+
+        # persist_table(home_team)
+        # persist_table(away_team)
+
+
 
