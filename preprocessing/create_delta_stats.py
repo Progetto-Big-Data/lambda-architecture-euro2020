@@ -20,7 +20,7 @@ def extract_delta_from_percentage(old_value, new_value):
     old_value = old_value.split('%')[0]
     new_value = new_value.split('%')[0]
     delta_value = int(new_value) - int(old_value)
-    delta_value = str(delta_value) + "%"
+    #delta_value = str(delta_value) + "%"
     return delta_value
 
 def extract_delta(old_value, new_value, stat_type):
