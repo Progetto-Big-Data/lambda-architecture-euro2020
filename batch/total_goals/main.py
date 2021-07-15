@@ -1,5 +1,6 @@
 from dask.distributed import Client
 import dask.dataframe as dd
+import pymongo
 
 client = Client('tcp://localhost:8786')
 
@@ -16,4 +17,14 @@ total_goals = total_goals.drop('home_score', axis=1)
 total_goals = total_goals.drop('away_score', axis=1)
 
 results = total_goals.compute()
-print(results)
+
+
+client = pymongo.MongoClient(
+    "localhost",
+    27017,
+    username="root",
+    password="secret")
+
+db = client.batch_view
+goal_collection = db.total_goals
+goal_collection.insert_one(results.to_dict())
