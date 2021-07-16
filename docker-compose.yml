@@ -55,26 +55,26 @@ services:
         - mongodb
       container_name: charts
 
-    dask-scheduler:
-      build:
-        context: ./docker/dask
-        dockerfile: Dockerfile
-      image: daskdev/dask
-      hostname: dask-scheduler
-      ports:
-        - "8786:8786"
-        - "8787:8787"
-      command: ["dask-scheduler"]
-      container_name: dask-scheduler
+    # dask-scheduler:
+    #   build:
+    #     context: ./docker/dask
+    #     dockerfile: Dockerfile
+    #   image: daskdev/dask
+    #   hostname: dask-scheduler
+    #   ports:
+    #     - "8786:8786"
+    #     - "8787:8787"
+    #   command: ["dask-scheduler"]
+    #   container_name: dask-scheduler
   
-    dask-worker:
-      build:
-        context: ./docker/dask
-        dockerfile: Dockerfile
-      image: daskdev/dask
-      hostname: dask-worker
-      command: ["dask-worker", "tcp://dask-scheduler:8786"]
-      container_name: dask-worker
+    # dask-worker:
+    #   build:
+    #     context: ./docker/dask
+    #     dockerfile: Dockerfile
+    #   image: daskdev/dask
+    #   hostname: dask-worker
+    #   command: ["dask-worker", "tcp://dask-scheduler:8786"]
+    #   container_name: dask-worker
 
 volumes: 
     mongodb_data_container:
