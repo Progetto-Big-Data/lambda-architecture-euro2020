@@ -2,6 +2,17 @@ import json
 from time import sleep
 from json import dumps
 from kafka import KafkaProducer
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--interval', help='Period of time between two messages', type=float)
+
+args = parser.parse_args()
+
+period_time = 0.5
+
+if args.interval:
+    period_time = args.interval
 
 producer = KafkaProducer(
     bootstrap_servers=['localhost:9092'],
@@ -16,4 +27,4 @@ with open(fixture_path, 'r') as file:
     for minute in fixture:
         producer.send(kafka_topic, value=minute)
         print(f'sent data {minute}')
-        sleep(5)
+        sleep(period_time)
