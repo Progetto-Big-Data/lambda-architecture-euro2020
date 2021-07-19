@@ -16,4 +16,4 @@ with open(fixture_path, 'r') as file:
     for minute in fixture:
         producer.send(kafka_topic, value=minute)
         print(f'sent data {minute}')
-        sleep(5)
+        sleep(1)
