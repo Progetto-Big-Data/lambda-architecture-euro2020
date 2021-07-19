@@ -1,3 +1,4 @@
+import re
 from dask.distributed import Client
 import dask.dataframe as dd
 import pymongo
@@ -27,4 +28,6 @@ client = pymongo.MongoClient(
 
 db = client.batch_view
 goal_collection = db.total_goals
-goal_collection.insert_one(results.to_dict())
+results = results.to_dict()['score']
+for team, score in results.items():
+    goal_collection.insert_one({'team': team, 'score': score})
