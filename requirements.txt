@@ -1,0 +1,4 @@
+dask == 2021.7.0
+faust == 1.10.4
+pandas == 1.2.5
+pymongo == 3.11.4
