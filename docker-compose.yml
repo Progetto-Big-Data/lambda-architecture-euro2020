@@ -55,26 +55,80 @@ services:
         - mongodb
       container_name: charts
 
-    # dask-scheduler:
-    #   build:
-    #     context: ./docker/dask
-    #     dockerfile: Dockerfile
-    #   image: daskdev/dask
-    #   hostname: dask-scheduler
-    #   ports:
-    #     - "8786:8786"
-    #     - "8787:8787"
-    #   command: ["dask-scheduler"]
-    #   container_name: dask-scheduler
+    dask-scheduler:
+      build:
+        context: ./docker/dask
+        dockerfile: Dockerfile
+      image: daskdev/dask
+      hostname: dask-scheduler
+      ports:
+        - "8786:8786"
+        - "8787:8787"
+      command: ["dask-scheduler"]
+      container_name: dask-scheduler
   
-    # dask-worker:
-    #   build:
-    #     context: ./docker/dask
-    #     dockerfile: Dockerfile
-    #   image: daskdev/dask
-    #   hostname: dask-worker
-    #   command: ["dask-worker", "tcp://dask-scheduler:8786"]
-    #   container_name: dask-worker
+    dask-worker:
+      build:
+        context: ./docker/dask
+        dockerfile: Dockerfile
+      image: daskdev/dask
+      hostname: dask-worker
+      command: ["dask-worker", "tcp://dask-scheduler:8786"]
+      container_name: dask-worker
+
+    namenode:
+      image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+      container_name: namenode
+      restart: always
+      ports:
+        - 9870:9870
+        - 9000:9000
+      volumes:
+        - hadoop_namenode:/hadoop/dfs/name
+      environment:
+        - CLUSTER_NAME=test
+      env_file:
+        - ./docker/hadoop.env
+
+    datanode:
+      image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+      container_name: datanode
+      restart: always
+      volumes:
+        - hadoop_datanode:/hadoop/dfs/data
+      environment:
+        SERVICE_PRECONDITION: "namenode:9870"
+      env_file:
+        - ./docker/hadoop.env
+    
+    resourcemanager:
+      image: bde2020/hadoop-resourcemanager:2.0.0-hadoop3.2.1-java8
+      container_name: resourcemanager
+      restart: always
+      environment:
+        SERVICE_PRECONDITION: "namenode:9000 namenode:9870 datanode:9864"
+      env_file:
+        - ./docker/hadoop.env
+
+    nodemanager1:
+      image: bde2020/hadoop-nodemanager:2.0.0-hadoop3.2.1-java8
+      container_name: nodemanager
+      restart: always
+      environment:
+        SERVICE_PRECONDITION: "namenode:9000 namenode:9870 datanode:9864 resourcemanager:8088"
+      env_file:
+        - ./docker/hadoop.env
+    
+    historyserver:
+      image: bde2020/hadoop-historyserver:2.0.0-hadoop3.2.1-java8
+      container_name: historyserver
+      restart: always
+      environment:
+        SERVICE_PRECONDITION: "namenode:9000 namenode:9870 datanode:9864 resourcemanager:8088"
+      volumes:
+        - hadoop_historyserver:/hadoop/yarn/timeline
+      env_file:
+        - ./docker/hadoop.env
 
 volumes: 
     mongodb_data_container:
@@ -82,3 +136,6 @@ volumes:
     logs:
     db-certs:
     web-certs:
+    hadoop_namenode:
+    hadoop_datanode:
+    hadoop_historyserver:
