@@ -1,4 +1,7 @@
+# Dask data
 dask-worker-space/
+# Faust data
+streaming/statistics/statistics_stream-data/
 
 # PyCharm files
 .idea/
