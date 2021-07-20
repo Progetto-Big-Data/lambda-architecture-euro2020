@@ -31,5 +31,5 @@ with open(fixture_path, 'r') as file:
     fixture = json.load(file)
     for minute in fixture:
         producer.send(kafka_topic, value=minute)
-        print(f'sent data {minute}')
+        print(f'sent data minute={minute["minute"]} fixture={fixture}')
         sleep(period_time)

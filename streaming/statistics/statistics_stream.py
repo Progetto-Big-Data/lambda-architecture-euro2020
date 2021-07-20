@@ -46,26 +46,6 @@ def save_to_mongo(data, data_topic):
     db[f'{data_topic}'].insert_one(data)
 
 
-def save_to_mongo_1(data):
-    db['fixture_718186'].insert_one(data)
-
-
-def save_to_mongo_2(data):
-    db['fixture_718252'].insert_one(data)
-
-
-def save_to_mongo_3(data):
-    db['fixture_721122'].insert_one(data)
-
-
-def save_to_mongo_4(data):
-    db['fixture_721123'].insert_one(data)
-
-
-def save_to_mongo_5(data):
-    db['fixture_723370'].insert_one(data)
-
-
 def merge_stats(minute_stats, minute):
     home_stats = minute_stats['statistics'][0]['statistics']
     away_stats = minute_stats['statistics'][1]['statistics']
@@ -99,88 +79,65 @@ def persist_table(table, data_topic):
     save_to_mongo(stats, data_topic)
 
 
-def persist_table_1(table):
-    stats = {}
-    for stat, value in table.items().delta(window_size):
-        stats[stat] = value
-    save_to_mongo_1(stats)
-
-
-def persist_table_2(table):
-    stats = {}
-    for stat, value in table.items().delta(window_size):
-        stats[stat] = value
-    save_to_mongo_2(stats)
-
-
-def persist_table_3(table):
-    stats = {}
-    for stat, value in table.items().delta(window_size):
-        stats[stat] = value
-    save_to_mongo_3(stats)
-
-
-def persist_table_4(table):
-    stats = {}
-    for stat, value in table.items().delta(window_size):
-        stats[stat] = value
-    save_to_mongo_4(stats)
-
-
-def persist_table_5(table):
-    stats = {}
-    for stat, value in table.items().delta(window_size):
-        stats[stat] = value
-    save_to_mongo_5(stats)
-
-
+# five different app functions are needed to distinguish the topic behaviours, with one it's tricky
+# https://github.com/robinhood/faust/issues/644
 @app.agent(topic_1)
 async def fixture_1(minutes):
     minute_count = 1
-    async for minute in minutes:
+    async for event in minutes.events():
+        data_topic = event.message.topic
+        minute = event.value
         all_stats = merge_stats(minute, minute_count)
         extract_stats(game_stats_table_1, all_stats)
-        persist_table_1(game_stats_table_1)
+        persist_table(game_stats_table_1, data_topic)
         minute_count += 1
 
 
 @app.agent(topic_2)
 async def fixture_2(minutes):
     minute_count = 1
-    async for minute in minutes:
+    async for event in minutes.events():
+        data_topic = event.message.topic
+        minute = event.value
         all_stats = merge_stats(minute, minute_count)
         extract_stats(game_stats_table_2, all_stats)
-        persist_table_2(game_stats_table_2)
+        persist_table(game_stats_table_2, data_topic)
         minute_count += 1
 
 
 @app.agent(topic_3)
 async def fixture_3(minutes):
     minute_count = 1
-    async for minute in minutes:
+    async for event in minutes.events():
+        data_topic = event.message.topic
+        minute = event.value
         all_stats = merge_stats(minute, minute_count)
         extract_stats(game_stats_table_3, all_stats)
-        persist_table_3(game_stats_table_3)
+        persist_table(game_stats_table_3, data_topic)
         minute_count += 1
 
 
 @app.agent(topic_4)
 async def fixture_4(minutes):
     minute_count = 1
-    async for minute in minutes:
+    async for event in minutes.events():
+        data_topic = event.message.topic
+        minute = event.value
         all_stats = merge_stats(minute, minute_count)
         extract_stats(game_stats_table_4, all_stats)
-        persist_table_4(game_stats_table_4)
+        persist_table(game_stats_table_4, data_topic)
         minute_count += 1
 
 
 @app.agent(topic_5)
 async def fixture_5(minutes):
     minute_count = 1
-    async for minute in minutes:
+    async for event in minutes.events():
+        data_topic = event.message.topic
+        minute = event.value
         all_stats = merge_stats(minute, minute_count)
         extract_stats(game_stats_table_5, all_stats)
-        persist_table_5(game_stats_table_5)
+        persist_table(game_stats_table_5, data_topic)
         minute_count += 1
 
 
