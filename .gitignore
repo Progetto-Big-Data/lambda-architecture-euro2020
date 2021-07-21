@@ -1,3 +1,5 @@
+dataset/historical_euro_fixtures/historical_dataset.csv
+
 # Dask data
 dask-worker-space/
 # Faust data
