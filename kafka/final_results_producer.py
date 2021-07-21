@@ -10,7 +10,7 @@ producer = KafkaProducer(
 )
 
 fixture_path = 'dataset/historical_euro_fixtures/recent_euro_fixtures.csv'
-kafka_topic = 'final_fixtures'
+kafka_topic = 'fixtures'
 
 with open(fixture_path, 'r') as csvfile:
     fixtures = csv.reader(csvfile)
