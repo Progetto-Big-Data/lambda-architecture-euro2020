@@ -1,17 +1,27 @@
 # Euro2020 lambda architecture
 
 Repository contenete il secondo progetto del corso di **Big Data** dell'università **Roma Tre**
-L'obiettivo è la realizzazione di una lambda architecture al supporto delle analisi di **Euro 2020**
+L'obiettivo è la realizzazione di una lambda architecture al supporto delle analisi di **Euro 2020**.
 
-Il progetto è ancora in lavorazione e ogni elemento potrebbe essere modificato *anche profondamente*.
+## Installazione
+L'esecuzione corretta è garantita su sistema operativo basato su Linux
+
+- docker engine: https://docs.docker.com/engine/install/ 
+- docker-compose: https://docs.docker.com/compose/install/
+
+Si suggerisce di creare un virtual environment usando venv o conda, per poi installare i package Python richiesti:
+
+    pip install -r requirements.txt
 
 ## Avvio
+
+Si premette che ognuno di questi comandi va eseguito (in ordine) in una shell diversa (a parte docker-compose che libera il terminale).
 
 Per avviare i vari servizi necessari alla soluzione è necessario inviare il seguente comando:
 
     docker-compose up -d
 
-### [Dask](https://docs.dask.org/en/latest/)
+### [Dask](https://docs.dask.org/en/latest/) (Batch Job)
 
 Attualemente non è supportato correttamente l'avvio di Dask su Docker, quindi conviene aprire in locale due terminali separati, uno per lo scheduler e l'altro per il nodo worker
 
@@ -26,39 +36,49 @@ A questo punto si può inviare un job a dask chiamando semplicemente lo script d
 
     python batch/total_goals/main.py
 
-### [Faust](https://faust.readthedocs.io/en/latest/)
+### [Faust](https://faust.readthedocs.io/en/latest/) (Streaming Job)
 
-Per avviare un task faust conviene generare un file shell costruito in questa maniera
+Per avviare un task faust avviare lo script dalla home del progetto:
 
-    faust -A <app-name> worker -l info
+    ./streaming/statistics/start-streaming-job.sh
 
-Dove *app-name* deve essere lo stesso nome dato all'interno del codice python al job Faust, ad esempio
+**Attenzione**: è necessario attendere il messaggio "Worker Ready" prima di avviare i producer Kafka
 
-    app = faust.App('app-name', ...)
+### [Kafka](https://kafka.apache.org/intro) (Data Producers)
 
-A questo punto si può avviare il job dalla cartella contenente il file python relativo ad *\<app-name\>*.
+I vari Kafka producers sono presenti nella cartella *kafka*. Per avviarli eseguire lo script dalla home del progetto:
 
-### MongoDB
+    ./kafka/start-all-producers.sh
 
-Per entrare in MongoDB dalla shell, bisogna aggiungere l'utenza esposta nel docker-compose
+### [MongoDB Shell](https://docs.mongodb.com/mongodb-shell/run-commands/)
+
+Per entrare in MongoDB dalla shell, bisogna utilizzare l'utenza esposta nel docker-compose
 
     mongo -u root -p secret
 
-Per avviare il comando è comunque necessario installare almeno la shell di mongo in locale. Per altre informazioni seguire [la documentazione ufficiale](https://docs.mongodb.com/mongodb-shell/install/#std-label-mdb-shell-install)
+Per avviare il comando è comunque necessario installare almeno la shell di mongo in locale (*mongosh* al posto di *mongo*). Per altre informazioni seguire [la documentazione ufficiale](https://docs.mongodb.com/mongodb-shell/install/#std-label-mdb-shell-install).
+
+Alcuni comandi utili per visualizzare i dati presenti:
+
+    show dbs
+    use streaming_view
+    
+    show collections
+    db.fixture_<id>.find()
+
+Per cancellare i dati salvati durante un'esecuzione passata si consiglia di eseguire, dopo *use streaming_view*
+
+    db.dropDatabase()
 
 ### MongoCharts
 
-Durante l'utilizzo di charts, quando viene chiesto l'indirizzo dove trovare le sorgenti da cui produrre i vari grafici, si può inserire
+Durante l'utilizzo di charts è necessario impostare le Data Sources senza le quali non è possibile visualizzare dati. Aprire la pagina http://localhost:8080/mongodb-charts-evgoq/data-sources ed inserire in "New Data Source" l'URL:
 
     mongodb://root:secret@mongodb:27017
 
-Così da connettersi allo stesso db in esecuzione nel container *mongo*. Sarebbe da investigare il motivo per cui non avviene in automatico
+Selezionare a questo punto il db chiamato *streaming_view*, così da connettersi allo stesso db in esecuzione nel container *mongo* dove vengono inseriti i dati provenienti dai producer Kafka. A questo punto è possibile creare dei grafici per visualizzare i dati.  
 
-### Kafka Producers
-
-I vari kafka producers sono presenti nella cartella *kafka*. Per avviarli basta dalla cartella sorgente del progetto lanciare il comando
-
-    python kafka/<producer-name>.py
+La Dashboard risulterà vuota, è ancora necessario istanziarla nuovamente per ogni nuovo utente che usa il servizio.
 
 ## Arresto
 
@@ -72,9 +92,4 @@ Per terminare l'esecuzione dei vari servizi basta fare
 Per questo si consiglia di far creare i topic sempre a Faust, semplicemente avviandolo prima di qualsiasi producer Kafka.
 In questa maniera Faust creerà le partizioni come più preferisce, evitando di andare in crash.
 Per risolvere questo problema evidentemente bisognerà sincronizzare il numero di partizioni tra Kafka e Faust. Al momento però la soluzione non sembra così triviale.
-- Il codice per la gestione del preprocessing è ancora fortemente in fase di sviluppo, per ora è sparso tra le cartelle *preprocessing* e *dataset/scripts*. Futuri sforzi saranno incentrati nel sistemare questa situazione.
-
-## Da tenere a mente
-
-- Kafka attualmente non salva i suoi dati in nessun volume, questo significa che ad ogni riavvio ripartirà con la coda vuota. Tale comportamento è voluto visto che non si vuole far persistere i dati streaming in Kafka ma bensì in MongoDB.
-- La gestione delle password è praticamente inesistente, le varie password possono facilmente essere trovate nei file all'interno della cartella *docker*
+- Non risulta facile esportare i grafici creati in MongoCharts, ed è quindi necessario istanziarli nuovamente per ogni utente che usa il servizio.
