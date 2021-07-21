@@ -6,4 +6,4 @@ for val in "${StringArray[@]}"; do
    python kafka/statistics_producer.py --interval 1 --fixture "$val" &
 done
 
-# python kafka/final_results_producer.py &
+python kafka/final_results_producer.py &

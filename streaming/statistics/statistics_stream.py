@@ -9,7 +9,7 @@ client = pymongo.MongoClient(
     username="root",
     password="secret")
 
-db = client.fixtures
+db = client.streaming_view
 
 app = faust.App(
     'statistics_stream',
@@ -19,27 +19,27 @@ app = faust.App(
     broker='kafka://localhost:9092'
 )
 
-# topic = app.topic('fixture_718186', 'fixture_718252', 'fixture_721122', 'fixture_721123', 'fixture_723370')
 topic_1 = app.topic('fixture_718186')
 topic_2 = app.topic('fixture_718252')
 topic_3 = app.topic('fixture_721122')
 topic_4 = app.topic('fixture_721123')
 topic_5 = app.topic('fixture_723370')
-# final_results_topic = app.topic('final_fixtures')
+# final_results_topic = app.topic('fixtures')
 
-# for reference
-# window_size = 30
-# window_step = 5
+# for binning minute intervals on mongo-charts
+# WINDOW_SIZE = 1
+# WINDOW_STEP = 1
 
-window_size = 1
-window_step = 1
+# window to aggregate whole game stats
+WINDOW_SIZE = 100
+WINDOW_STEP = 1
 
 # game_stats_table = app.Table('game_stats', default=int, partitions=1).tumbling(window_size, key_index=True)
-game_stats_table_1 = app.Table('game_stats_1', default=int, partitions=1).hopping(window_size, window_step, key_index=True)
-game_stats_table_2 = app.Table('game_stats_2', default=int, partitions=1).hopping(window_size, window_step, key_index=True)
-game_stats_table_3 = app.Table('game_stats_3', default=int, partitions=1).hopping(window_size, window_step, key_index=True)
-game_stats_table_4 = app.Table('game_stats_4', default=int, partitions=1).hopping(window_size, window_step, key_index=True)
-game_stats_table_5 = app.Table('game_stats_5', default=int, partitions=1).hopping(window_size, window_step, key_index=True)
+game_stats_table_1 = app.Table('game_stats_1', default=int, partitions=1).hopping(WINDOW_SIZE, WINDOW_STEP, key_index=True)
+game_stats_table_2 = app.Table('game_stats_2', default=int, partitions=1).hopping(WINDOW_SIZE, WINDOW_STEP, key_index=True)
+game_stats_table_3 = app.Table('game_stats_3', default=int, partitions=1).hopping(WINDOW_SIZE, WINDOW_STEP, key_index=True)
+game_stats_table_4 = app.Table('game_stats_4', default=int, partitions=1).hopping(WINDOW_SIZE, WINDOW_STEP, key_index=True)
+game_stats_table_5 = app.Table('game_stats_5', default=int, partitions=1).hopping(WINDOW_SIZE, WINDOW_STEP, key_index=True)
 
 
 def save_to_mongo(data, data_topic):
@@ -74,7 +74,7 @@ def extract_stats(team, stats):
 # put the current faust table in a python dictionary
 def persist_table(table, data_topic):
     stats = {}
-    for stat, value in table.items().delta(window_size):
+    for stat, value in table.items().delta(WINDOW_SIZE):
         stats[stat] = value
     save_to_mongo(stats, data_topic)
 
