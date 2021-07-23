@@ -1,15 +1,456 @@
 [
     {
         "minute": 1,
-        "statistics": []
+        "statistics": [
+            {
+                "team": {
+                    "id": 10,
+                    "name": "England",
+                    "logo": "https://media.api-sports.io/football/teams/10.png"
+                },
+                "statistics": [
+                    {
+                        "type": "Shots on Goal",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots off Goal",
+                        "value": null
+                    },
+                    {
+                        "type": "Total Shots",
+                        "value": null
+                    },
+                    {
+                        "type": "Blocked Shots",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots insidebox",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots outsidebox",
+                        "value": null
+                    },
+                    {
+                        "type": "Fouls",
+                        "value": null
+                    },
+                    {
+                        "type": "Corner Kicks",
+                        "value": null
+                    },
+                    {
+                        "type": "Offsides",
+                        "value": null
+                    },
+                    {
+                        "type": "Ball Possession",
+                        "value": "0%"
+                    },
+                    {
+                        "type": "Yellow Cards",
+                        "value": null
+                    },
+                    {
+                        "type": "Red Cards",
+                        "value": null
+                    },
+                    {
+                        "type": "Goalkeeper Saves",
+                        "value": null
+                    },
+                    {
+                        "type": "Total passes",
+                        "value": null
+                    },
+                    {
+                        "type": "Passes accurate",
+                        "value": null
+                    },
+                    {
+                        "type": "Passes %",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": 21,
+                    "name": "Denmark",
+                    "logo": "https://media.api-sports.io/football/teams/21.png"
+                },
+                "statistics": [
+                    {
+                        "type": "Shots on Goal",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots off Goal",
+                        "value": null
+                    },
+                    {
+                        "type": "Total Shots",
+                        "value": null
+                    },
+                    {
+                        "type": "Blocked Shots",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots insidebox",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots outsidebox",
+                        "value": null
+                    },
+                    {
+                        "type": "Fouls",
+                        "value": null
+                    },
+                    {
+                        "type": "Corner Kicks",
+                        "value": null
+                    },
+                    {
+                        "type": "Offsides",
+                        "value": null
+                    },
+                    {
+                        "type": "Ball Possession",
+                        "value": "100%"
+                    },
+                    {
+                        "type": "Yellow Cards",
+                        "value": null
+                    },
+                    {
+                        "type": "Red Cards",
+                        "value": null
+                    },
+                    {
+                        "type": "Goalkeeper Saves",
+                        "value": null
+                    },
+                    {
+                        "type": "Total passes",
+                        "value": 1
+                    },
+                    {
+                        "type": "Passes accurate",
+                        "value": 1
+                    },
+                    {
+                        "type": "Passes %",
+                        "value": "100%"
+                    }
+                ]
+            }
+        ]
     },
     {
         "minute": 2,
-        "statistics": []
+        "statistics": [
+            {
+                "team": {
+                    "id": 10,
+                    "name": "England",
+                    "logo": "https://media.api-sports.io/football/teams/10.png"
+                },
+                "statistics": [
+                    {
+                        "type": "Shots on Goal",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots off Goal",
+                        "value": null
+                    },
+                    {
+                        "type": "Total Shots",
+                        "value": null
+                    },
+                    {
+                        "type": "Blocked Shots",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots insidebox",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots outsidebox",
+                        "value": null
+                    },
+                    {
+                        "type": "Fouls",
+                        "value": null
+                    },
+                    {
+                        "type": "Corner Kicks",
+                        "value": null
+                    },
+                    {
+                        "type": "Offsides",
+                        "value": null
+                    },
+                    {
+                        "type": "Ball Possession",
+                        "value": "0%"
+                    },
+                    {
+                        "type": "Yellow Cards",
+                        "value": null
+                    },
+                    {
+                        "type": "Red Cards",
+                        "value": null
+                    },
+                    {
+                        "type": "Goalkeeper Saves",
+                        "value": null
+                    },
+                    {
+                        "type": "Total passes",
+                        "value": null
+                    },
+                    {
+                        "type": "Passes accurate",
+                        "value": null
+                    },
+                    {
+                        "type": "Passes %",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": 21,
+                    "name": "Denmark",
+                    "logo": "https://media.api-sports.io/football/teams/21.png"
+                },
+                "statistics": [
+                    {
+                        "type": "Shots on Goal",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots off Goal",
+                        "value": null
+                    },
+                    {
+                        "type": "Total Shots",
+                        "value": null
+                    },
+                    {
+                        "type": "Blocked Shots",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots insidebox",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots outsidebox",
+                        "value": null
+                    },
+                    {
+                        "type": "Fouls",
+                        "value": null
+                    },
+                    {
+                        "type": "Corner Kicks",
+                        "value": null
+                    },
+                    {
+                        "type": "Offsides",
+                        "value": null
+                    },
+                    {
+                        "type": "Ball Possession",
+                        "value": "100%"
+                    },
+                    {
+                        "type": "Yellow Cards",
+                        "value": null
+                    },
+                    {
+                        "type": "Red Cards",
+                        "value": null
+                    },
+                    {
+                        "type": "Goalkeeper Saves",
+                        "value": null
+                    },
+                    {
+                        "type": "Total passes",
+                        "value": 1
+                    },
+                    {
+                        "type": "Passes accurate",
+                        "value": 1
+                    },
+                    {
+                        "type": "Passes %",
+                        "value": "100%"
+                    }
+                ]
+            }
+        ]
     },
     {
         "minute": 3,
-        "statistics": []
+        "statistics": [
+            {
+                "team": {
+                    "id": 10,
+                    "name": "England",
+                    "logo": "https://media.api-sports.io/football/teams/10.png"
+                },
+                "statistics": [
+                    {
+                        "type": "Shots on Goal",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots off Goal",
+                        "value": null
+                    },
+                    {
+                        "type": "Total Shots",
+                        "value": null
+                    },
+                    {
+                        "type": "Blocked Shots",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots insidebox",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots outsidebox",
+                        "value": null
+                    },
+                    {
+                        "type": "Fouls",
+                        "value": null
+                    },
+                    {
+                        "type": "Corner Kicks",
+                        "value": null
+                    },
+                    {
+                        "type": "Offsides",
+                        "value": null
+                    },
+                    {
+                        "type": "Ball Possession",
+                        "value": "0%"
+                    },
+                    {
+                        "type": "Yellow Cards",
+                        "value": null
+                    },
+                    {
+                        "type": "Red Cards",
+                        "value": null
+                    },
+                    {
+                        "type": "Goalkeeper Saves",
+                        "value": null
+                    },
+                    {
+                        "type": "Total passes",
+                        "value": null
+                    },
+                    {
+                        "type": "Passes accurate",
+                        "value": null
+                    },
+                    {
+                        "type": "Passes %",
+                        "value": null
+                    }
+                ]
+            },
+            {
+                "team": {
+                    "id": 21,
+                    "name": "Denmark",
+                    "logo": "https://media.api-sports.io/football/teams/21.png"
+                },
+                "statistics": [
+                    {
+                        "type": "Shots on Goal",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots off Goal",
+                        "value": null
+                    },
+                    {
+                        "type": "Total Shots",
+                        "value": null
+                    },
+                    {
+                        "type": "Blocked Shots",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots insidebox",
+                        "value": null
+                    },
+                    {
+                        "type": "Shots outsidebox",
+                        "value": null
+                    },
+                    {
+                        "type": "Fouls",
+                        "value": null
+                    },
+                    {
+                        "type": "Corner Kicks",
+                        "value": null
+                    },
+                    {
+                        "type": "Offsides",
+                        "value": null
+                    },
+                    {
+                        "type": "Ball Possession",
+                        "value": "100%"
+                    },
+                    {
+                        "type": "Yellow Cards",
+                        "value": null
+                    },
+                    {
+                        "type": "Red Cards",
+                        "value": null
+                    },
+                    {
+                        "type": "Goalkeeper Saves",
+                        "value": null
+                    },
+                    {
+                        "type": "Total passes",
+                        "value": 1
+                    },
+                    {
+                        "type": "Passes accurate",
+                        "value": 1
+                    },
+                    {
+                        "type": "Passes %",
+                        "value": "100%"
+                    }
+                ]
+            }
+        ]
     },
     {
         "minute": 4,

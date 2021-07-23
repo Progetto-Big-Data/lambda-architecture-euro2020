@@ -20,5 +20,5 @@ old_fixtures = historical_fixtures[historical_fixtures.date < euro2020['start_da
 recent_european_fixtures = recent_fixtures[recent_fixtures.tournament == euro2020['competition_name']]
 old_european_fixtures = old_fixtures[old_fixtures.tournament == euro2020['competition_name']]
 
-recent_european_fixtures.to_csv('recent_fixtures.csv', index=False)
-old_european_fixtures.to_csv('old_fixtures.csv', index=False)
+recent_european_fixtures.to_csv('dataset/historical_euro_fixtures/recent_fixtures.csv', index=False)
+old_european_fixtures.to_csv('dataset/historical_euro_fixtures/old_fixtures.csv', index=False)
