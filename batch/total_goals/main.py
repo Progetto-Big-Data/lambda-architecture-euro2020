@@ -1,4 +1,3 @@
-import re
 from dask.distributed import Client
 import dask.dataframe as dd
 import pymongo
