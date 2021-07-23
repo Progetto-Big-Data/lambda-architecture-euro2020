@@ -23,7 +23,8 @@ Per avviare i vari servizi necessari alla soluzione è necessario inviare il seg
 
 ### [Dask](https://docs.dask.org/en/latest/) (Batch Job)
 
-Attualemente non è supportato correttamente l'avvio di Dask su Docker, quindi conviene aprire in locale due terminali separati, uno per lo scheduler e l'altro per il nodo worker
+L'avvio di Dask su Docker è supportato correttamente. Qualora ci fossero problemi è possible avviarlo in locale.
+Per fare ciò conviene aprire due terminali separati, uno per lo scheduler e l'altro per il nodo worker
 
     dask-scheduler
     dask-worker <scheduler-address>
